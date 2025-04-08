@@ -32,4 +32,4 @@ def pay():
     return "<h2>Payment Successful!</h2><a href='/'>Back</a>"
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run()
